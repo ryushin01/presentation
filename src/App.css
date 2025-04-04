@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: "KBO-Dia-Gothic_bold";
+  }
+
+  a:hover:not(.enter) {
+    @apply text-primary;  
+  }
+}
+
+@layer components {
+  header.scrolled {
+    @apply bg-grayscaleF border-b border-grayscaleA/10;
+  }
+
+  .inDetail {
+    @apply text-primary;
+  }
+
+  .gnb {
+    .active {
+      @apply text-primary;
+    }
+  }
+
+  .project-image-swiper.swiper-horizontal {
+    .swiper-pagination-progressbar {
+      @apply top-auto bottom-0;
+
+      .swiper-pagination-progressbar-fill {
+        @apply bg-primary;
+      }
+    }
+  }
+
+  .enter {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #1abc9c;
+    box-shadow: 0 0 0 1px #079992 inset,
+      0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+      0 8px 0 0 rgba(0, 184, 148, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.4),
+      0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 20px 10px 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: top 0.01s linear;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+
+    &:active {
+      top: 9px;
+      box-shadow: 0 0 0 1px #55efc4 inset,
+        0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+@layer utilities {
+}
