@@ -4,7 +4,7 @@ export default {
   theme: {
     colors: {
       primary: "#1dd1a1",
-      secondary: "",
+      secondary: "#B91C1C",
       grayscaleA: "#000",
       grayscaleB: "#303030",
       grayscaleC: "#949494",

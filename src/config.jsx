@@ -1,4 +1,4 @@
-const BASE_URL = "/solid/data";
+const BASE_URL = "/presentation/data";
 
 export const API = {
   PORTFOLIO: `${BASE_URL}/portfolioData.json`,

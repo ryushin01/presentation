@@ -11,6 +11,18 @@
 }
 
 @layer base {
+
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html, body, #root {
+    min-height: 100vh;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
   html,
   body {
     font-family: "KBO-Dia-Gothic_bold";
@@ -46,10 +58,134 @@
     }
   }
 
+._responsive-grid-system {
+  @apply flex flex-1 flex-wrap w-full h-full;
+
+&.without-padding {
+& > div {
+    @apply px-0;
+  }
+}
+
+& > div {
+    @apply px-4 transition-all;
+
+    &:last-child {
+        @apply border-l border-grayscaleA/10;
+     }
+  }
+}
+
+._frame {
+  @apply relative block;
+
+img {
+  @apply object-contain;
+}
+}
+
+._responsive-swiper-wrapper {
+  @apply w-full h-full relative;
+
+._responsive-swiper {
+  @apply w-full h-full;
+
+.swiper-slide {
+  @apply overflow-hidden rounded-xl;
+
+  img {
+    @apply absolute inset-0 w-full h-full;
+  }
+}
+
+.swiper-pagination {
+  @apply flex justify-center left-1/2 -translate-x-1/2 z-10 w-auto min-w-[60px] px-3 py-1 rounded-2xl bg-grayscaleA/30 text-grayscaleD text-sm;
+
+.swiper-pagination-current {
+  @apply text-grayscaleF font-semibold;
+}
+}
+}
+
+._btn-prev,
+._btn-next {
+  @apply flex justify-center items-center absolute top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-grayscaleF/50 rounded-full;
+
+&:active {
+   @apply bg-grayscaleB/50;
+ }
+
+&[disabled] {
+   @apply pointer-events-none opacity-20;
+ }
+}
+
+._btn-prev {
+  @apply -left-5;
+}
+
+._btn-next {
+  @apply -right-5;
+}
+}
+
+table {
+  th, td {
+    @apply p-3 border-b border-grayscaleA/10 text-base md:text-lg text-left;
+  }
+
+  th {
+    @apply bg-grayscaleC/10;
+  }
+
+  tr:last-child {
+    th, td {
+      @apply border-b-0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ._responsive-grid-system {
+    & > div {
+  @apply border-0;
+      }
+  }
+
+  ._responsive-swiper-wrapper {
+    @apply h-[60vh];
+
+  ._responsive-swiper {
+    @apply pt-7 pb-14;
+
+  .swiper-slide {
+    @apply w-2/3 ml-6;
+
+  img {
+    @apply object-cover;
+  }
+}
+
+.swiper-slide:first-child {
+  @apply ml-4;
+}
+
+.swiper-pagination {
+  @apply top-auto bottom-0;
+}
+}
+
+._btn-prev,
+._btn-next {
+  @apply hidden;
+}
+}
+}
+
   .enter {
+    @apply text-sm lg:text-xl;
     position: relative;
     display: inline-block;
-    font-size: 20px;
     padding: 20px;
     background-color: #1abc9c;
     box-shadow: 0 0 0 1px #079992 inset,
@@ -57,7 +193,7 @@
       0 8px 0 0 rgba(0, 184, 148, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.4),
       0 8px 8px 1px rgba(0, 0, 0, 0.5);
     color: #fff;
-    margin: 20px 10px 10px;
+    margin: 20px;
     border-radius: 6px;
     text-align: center;
     transition: top 0.01s linear;

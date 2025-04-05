@@ -1,11 +1,9 @@
-import About from "@pages/Main/components/About/About";
-import Skillset from "@pages/Main/components/Skillset/Skillset";
+import List from "./components/List";
 
 const Main = () => {
   return (
-    <main>
-      <About />
-      <Skillset />
+    <main className="flex flex-1">
+      <List />
     </main>
   );
 };

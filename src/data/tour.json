@@ -1,0 +1,61 @@
+{
+  "images": [
+    {
+      "src": "/presentation/images/tour/01.png",
+      "alt": "1번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/02.jpg",
+      "alt": "2번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/03.jpg",
+      "alt": "3번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/04.jpg",
+      "alt": "4번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/05.jpg",
+      "alt": "5번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/06.jpg",
+      "alt": "6번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/07.jpg",
+      "alt": "7번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/08.jpg",
+      "alt": "8번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/09.jpg",
+      "alt": "9번 이미지"
+    },
+    {
+      "src": "/presentation/images/tour/10.jpg",
+      "alt": "10번 이미지"
+    }
+  ],
+  "data": [
+    {
+      "title": "솔밭칼국수",
+      "location": "경기 안산시 단원구 대부황금로 1516-8",
+      "price": "바지락칼국수(11,000), 바지락파전(18,000) 등"
+    },
+    {
+      "title": "방아머리해변",
+      "location": "경기 안산시 단원구 대부북동",
+      "price": "N/A"
+    },
+    {
+      "title": "허니비치카페",
+      "location": "경기 안산시 단원구 대부황금로 1495",
+      "price": "아메리카노(6,800), 바다 라떼(10,000) 등"
+    }
+  ]
+}
