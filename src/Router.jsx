@@ -4,7 +4,7 @@ import Main from "@pages/Main/Main";
 import Tour from "@pages/Tour/Tour";
 import Pension from "@pages/Pension/Pension";
 import Notice from "@pages/Notice/Notice";
-import { Alarm } from "@components/common";
+// import { Alarm } from "@components/common";
 import InitializeScroll from "@modules/InitializeScroll/InitializeScroll";
 const Router = () => {
   return (
@@ -17,7 +17,7 @@ const Router = () => {
             <Route path="/notice" element={<Notice />} />
         </Routes>
 
-        <Alarm />
+        {/*<Alarm />*/}
         <InitializeScroll />
     </BrowserRouter>
   );

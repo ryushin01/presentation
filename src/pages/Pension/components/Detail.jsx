@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { Grid, GridItem } from "@components/Layout";
 import { ResponsiveSwiper } from "@components/common";
 import pension from "@data/pension.json";
+
 const Detail = () => {
   return (
     <div className="flex flex-1">
@@ -29,6 +31,7 @@ const Detail = () => {
                 </div>
                 <div className="text-center">
                   <a href={pension.data.path} className="enter" target="_blank">숙소 톺아보기</a>
+                  <Link to="/notice" className="enter">팀 및 일정 확인하기</Link>
                 </div>
               </section>
             </div>
