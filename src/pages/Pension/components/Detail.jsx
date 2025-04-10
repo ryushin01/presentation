@@ -27,15 +27,6 @@ const Detail = () => {
                     <span>{pension.data.price}</span>
                   </h3>
                 </div>
-
-                <ul className="flex flex-col gap-y-2">
-                  {pension.data.summary.map((item) => {
-                    return (
-                        <li key={item} className="text-base md:text-lg">- {item}</li>
-                    );
-                  })}
-                </ul>
-
                 <div className="text-center">
                   <a href={pension.data.path} className="enter" target="_blank">숙소 톺아보기</a>
                 </div>

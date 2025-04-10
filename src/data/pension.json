@@ -1,54 +1,30 @@
 {
   "images": [
     {
-      "src": "/presentation/images/pension/01.jpg",
+      "src": "/presentation/images/pension/01.jpeg",
       "alt": "1번 이미지"
     },
     {
-      "src": "/presentation/images/pension/02.jpg",
+      "src": "/presentation/images/pension/02.jpeg",
       "alt": "2번 이미지"
     },
     {
-      "src": "/presentation/images/pension/03.jpg",
+      "src": "/presentation/images/pension/03.jpeg",
       "alt": "3번 이미지"
     },
     {
-      "src": "/presentation/images/pension/04.jpg",
+      "src": "/presentation/images/pension/04.jpeg",
       "alt": "4번 이미지"
     },
     {
-      "src": "/presentation/images/pension/05.jpg",
+      "src": "/presentation/images/pension/05.jpeg",
       "alt": "5번 이미지"
-    },{
-      "src": "/presentation/images/pension/06.jpg",
-      "alt": "6번 이미지"
-    },
-    {
-      "src": "/presentation/images/pension/07.jpg",
-      "alt": "7번 이미지"
-    },
-    {
-      "src": "/presentation/images/pension/08.jpg",
-      "alt": "8번 이미지"
-    },
-    {
-      "src": "/presentation/images/pension/09.jpg",
-      "alt": "9번 이미지"
-    },
-    {
-      "src": "/presentation/images/pension/10.jpg",
-      "alt": "10번 이미지"
     }
   ],
   "data": {
-    "title": "하이클래스 펜션",
-    "path": "http://www.dbhighclass.com/",
-    "location": "경기도 안산시 단원구 대부남동 3-494",
-    "price": "1박 2일, 70만원 ~ 85만원",
-    "summary": [
-      "130평 / 3~3.5F / 방 8개 / 화장실 4개 / 샤워실 3개",
-      "개별 바베큐장 / 개별 야외수영장 / 족구장 / 당구대 / 탁구대 / 스크린골프장 / 다락방",
-      "TV / 침대 / 에어컨 / 냉장고 / 전자렌지 / 주방기구일체 / 식기류일체 / 정수기"
-    ]
+    "title": "한옥 펜션 반디브",
+    "path": "https://naver.me/xOx16kyg",
+    "location": "경기 안산시 단원구 까치섬길 50-41",
+    "price": "1박 2일, 42만원 ~ 64만원 (5인 기준, 1인 추가 시 3만원)"
   }
 }

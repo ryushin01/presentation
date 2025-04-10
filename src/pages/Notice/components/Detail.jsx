@@ -10,15 +10,19 @@ const Detail = () => {
                 <span className="text-3xl md:text-5xl">서울팀</span>
                 <ul className="grid grid-cols-2 gap-y-6 w-full">
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/창선.png" alt="창선" className="w-20 h-20" />
+                    <img src="/presentation/images/member/cs.png" alt="창선" className="w-20 h-20"/>
                     <span className="text-base md:text-lg">창선</span>
                   </li>
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/혜정.png" alt="혜정" className="w-20 h-20" />
+                    <img src="/presentation/images/member/js.png" alt="진선" className="w-20 h-20"/>
+                    <span className="text-base md:text-lg">진선</span>
+                  </li>
+                  <li className="flex flex-col items-center gap-y-2">
+                    <img src="/presentation/images/member/hj.png" alt="혜정" className="w-20 h-20"/>
                     <span className="text-base md:text-lg">혜정</span>
                   </li>
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/혜민.png" alt="혜민" className="w-20 h-20" />
+                    <img src="/presentation/images/member/hm.png" alt="혜민" className="w-20 h-20"/>
                     <span className="text-base md:text-lg">혜민</span>
                   </li>
                 </ul>
@@ -27,22 +31,18 @@ const Detail = () => {
             <div className="py-6 lg:py-12">&middot; &middot; &middot;</div>
             <section className="w-full py-6">
               <div className="flex flex-col items-center gap-y-6">
-                <span className="text-3xl md:text-5xl">대전팀</span>
+              <span className="text-3xl md:text-5xl">대전팀</span>
                 <ul className="grid grid-cols-2 gap-y-6 w-full">
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/승준.png" alt="승준" className="w-20 h-20" />
-                    <span className="text-base md:text-lg">승준</span>
-                  </li>
-                  <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/한솔.png" alt="한솔" className="w-20 h-20" />
+                    <img src="/presentation/images/member/hs.png" alt="한솔" className="w-20 h-20" />
                     <span className="text-base md:text-lg">한솔</span>
                   </li>
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/현우.png" alt="현우" className="w-20 h-20" />
+                    <img src="/presentation/images/member/hw.png" alt="현우" className="w-20 h-20" />
                     <span className="text-base md:text-lg">현우</span>
                   </li>
                   <li className="flex flex-col items-center gap-y-2">
-                    <img src="/presentation/images/member/연우.png" alt="연우" className="w-20 h-20" />
+                    <img src="/presentation/images/member/yw.png" alt="연우" className="w-20 h-20" />
                     <span className="text-base md:text-lg">연우</span>
                   </li>
                 </ul>

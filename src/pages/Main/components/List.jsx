@@ -10,9 +10,9 @@ const LIST_DATA = [
   },
   {
     title: "숙소",
-    subtitle: "하이클래스 펜션",
+    subtitle: "한옥 펜션 반디브",
     path: "/pension",
-    bg: "images/pension/bg.jpg"
+    bg: "images/pension/bg.jpeg"
   }
 ]
 
